@@ -8,7 +8,7 @@ include('header.php');
 <br>
  <div class="navbar">
 	<div class="alert alert-info" role="alert">
-		<h2>kscs Membership System</h2>
+		<h2>kscs Membership Registration</h2>
 	</div>
     </div>
    
@@ -111,7 +111,7 @@ include('header.php');
 	</div>
 	<center>
 	<div class="alert alert-danger" role="alert">
-	<b>Developed By Rolyn Jasper Demerin</b>
+	<b>Developed By suleiman yahya garo</b>
 	</div>
 	</center>
 	
@@ -126,9 +126,9 @@ include('header.php');
 	$c_number = $_POST['c_number'];
 	$captcha_code = $_POST['captcha_code'];
 	
-	mysql_query("insert into reg_member (firstname, lastname, age, address, gender, email, c_number, captcha_code, date)
+	mysqli_query($conn, "insert into reg_member (firstname, lastname, age, address, gender, email, c_number, captcha_code, date)
 	values('$firstname', '$lastname', '$age', '$address', '$gender', '$email', '$c_number', '$captcha_code', NOW())
-	")or die(mysql_error());
+	")or die(mysqli_error($sql));
 	?>
 	<script type="text/javascript">
 	alert('You are Successfully Register Thank You');

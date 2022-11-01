@@ -1,4 +1,4 @@
-kscs Membership System in PHP
+kscs Membership Registration in PHP
 
 **LOGIN DETAILS*
 
@@ -6,7 +6,7 @@ Username : admin
 Password : admin
 
 
-**Developed By Rolyn Jasper Demerin**
+**Developed By suleiman yahya garo**
 
 DON'T FORGET TO CREATE A DATABASE NAMING "db_membership" AND IMPORT THE DATBASE FILE (db_membership.sql)
 WITHOUT THE DATABASE THE PROJECT WON'T RUN.

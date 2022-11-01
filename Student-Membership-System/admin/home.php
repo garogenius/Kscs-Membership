@@ -8,7 +8,7 @@ include('session.php');
 
  <div class="navbar">
 	<div class="alert alert-info" role="alert">
-		<h2>kscs Membership System - Admin Panel</h2>
+		<h2>kscs - Admin Panel</h2>
 	</div>
     </div>
 
@@ -40,7 +40,7 @@ include('tab_user.php');
 </div>
 	<center>
 	<div class="alert alert-danger" role="alert">
-	<b>Developed By Rolyn Jasper Demerin</b>
+	<b>Developed By suleiman yahya garo</b>
 	</div>
 	</center>
 <?php 

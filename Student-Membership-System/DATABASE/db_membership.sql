@@ -43,12 +43,12 @@ CREATE TABLE IF NOT EXISTS `reg_member` (
 -- Dumping data for table `reg_member`
 --
 
-INSERT INTO `reg_member` (`member_id`, `firstname`, `lastname`, `address`, `email`, `c_number`, `gender`, `date`, `age`, `captcha_code`) VALUES
-(0, 'Harry', 'Den', 'Espnn', 'harryden@ourmail.com', '8542220101', 'Male', '2019-03-07 20:18:23', 22, 'XJZB6m'),
-(0, 'Christine', 'Gray', 'Nt Street 18', 'christt@ourmail.com', '7410258000', 'Female', '2019-03-07 20:30:18', 21, 'Mdz2L6'),
-(0, 'Paul', 'Smith', 'South Street 12', 'paulsmt@ourmail.com', '8520000002', 'Male', '2019-03-07 20:31:18', 22, 'SxwWJZ'),
-(0, 'Robert', 'Jr', 'Blecker Street 12', 'iamrobert@ourmail.com', '0584570002', 'Male', '2019-03-07 20:37:20', 20, 'QKk9B3'),
-(0, 'Gemma', 'Chan', 'Hemmstreet', 'channge@ourmail.com', '8520258521', 'Female', '2019-03-07 20:38:45', 19, 'gD5c7K');
+-- INSERT INTO `reg_member` (`member_id`, `firstname`, `lastname`, `address`, `email`, `c_number`, `gender`, `date`, `age`, `captcha_code`) VALUES
+-- (0, 'Harry', 'Den', 'Espnn', 'harryden@ourmail.com', '8542220101', 'Male', '2019-03-07 20:18:23', 22, 'XJZB6m'),
+-- (0, 'Christine', 'Gray', 'Nt Street 18', 'christt@ourmail.com', '7410258000', 'Female', '2019-03-07 20:30:18', 21, 'Mdz2L6'),
+-- (0, 'Paul', 'Smith', 'South Street 12', 'paulsmt@ourmail.com', '8520000002', 'Male', '2019-03-07 20:31:18', 22, 'SxwWJZ'),
+-- (0, 'Robert', 'Jr', 'Blecker Street 12', 'iamrobert@ourmail.com', '0584570002', 'Male', '2019-03-07 20:37:20', 20, 'QKk9B3'),
+-- (0, 'Gemma', 'Chan', 'Hemmstreet', 'channge@ourmail.com', '8520258521', 'Female', '2019-03-07 20:38:45', 19, 'gD5c7K');
 
 -- --------------------------------------------------------
 

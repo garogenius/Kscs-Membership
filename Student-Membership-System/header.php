@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
 
-        <title>kscs Membership System</title>
+        <title>kscs Membership Registration</title>
    
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="screen">
         <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="screen">

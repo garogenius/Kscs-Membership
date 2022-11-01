@@ -18,11 +18,10 @@
                             </thead>
                             <tbody>
 							<?php
-							$query=mysql_query("select * from reg_member")or die(mysql_error());
-							while($row=mysql_fetch_array($query)){
+							$query=mysqli_query($conn, "select * from reg_member")or die(mysqli_error());
+							while($row=mysqli_fetch_array($query)){
 							$id=$row['member_id'];
 							?>
-                              
                            		<tr class="del<?php echo $id ?>">
                                        <td><?php echo $row['firstname']." ".$row['lastname']; ?></td>
                                        <td><?php echo $row['address']; ?></td>

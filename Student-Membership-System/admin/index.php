@@ -6,7 +6,7 @@ include('header.php');
 
 <br><br>
 	<div class="alert alert-info" role="alert">
-		<h2>kscs Membership System</h2>
+		<h2>kscs Membership Registration</h2>
 	</div>
 
     <div class="row-fluid">
@@ -40,9 +40,9 @@ include('header.php');
 	$username=$_POST['username'];
 	$password=$_POST['password'];
 	
-	$query=mysql_query("select * from user where username='$username' and password='$password'")or die(mysql_error());
-	$count=mysql_num_rows($query);
-	$row=mysql_fetch_array($query);
+	$query=mysqli_query($conn, "select * from user where username='$username' and password='$password'")or die(mysqli_error());
+	$count=mysqli_num_rows($query);
+	$row=mysqli_fetch_array($query);
 
 		
 	if ($count > 0){

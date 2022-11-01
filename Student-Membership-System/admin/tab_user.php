@@ -18,8 +18,8 @@
                             </thead>
                             <tbody>
 							<?php
-							$query=mysql_query("select * from user")or die(mysql_error());
-							while($row=mysql_fetch_array($query)){
+							$query=mysqli_query($conn, "select * from user")or die(mysqli_error());
+							while($row=mysqli_fetch_array($query)){
 							$id=$row['user'];
 							?>
                               

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
 
-        <title>kscs Membership System</title>
+        <title>kscs Membership Registration</title>
    
        
 

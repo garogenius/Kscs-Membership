@@ -3,7 +3,7 @@ include('dbcon.php');
 
 $id=$_POST['id'];
 
-mysql_query("delete from user where user='$id'") or die(mysql_error());
+mysqli_query($conn, "delete from user where user='$id'") or die(mysqli_error($sql));
 
 
 

@@ -1,4 +1,4 @@
-kscs Membership System in PHP
+kscs Membership Registration in PHP
 
 **LOGIN DETAILS*
 
